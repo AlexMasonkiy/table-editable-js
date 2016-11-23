@@ -21,7 +21,7 @@ Structure row (set class editable on td if wish edit this cell and set data-id a
 
 Init plugin:
 <pre>
-  jQuery(document).ready(function() {
-      EditableTable.init({ onlySortable: true, url: ''});
-  });
- </pre>
+jQuery(document).ready(function() {
+   EditableTable.init({ onlySortable: true, url: ''});
+});
+</pre>
