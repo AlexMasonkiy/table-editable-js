@@ -1,10 +1,11 @@
 # table-editable-js
 edit table cells in table
 
-Structure row (set class editable if wish edit this cell):
-<pre>
-<table>
-  <tr data-id="1">
+Structure row (set class editable on td if wish edit this cell and set data-id attribute for save with ajax):
+
+
+   <tr data-id="1"
+
     <td class="editable" data-name="Title"> Лей </td>
     <td class="editable" data-name="Cost"> 0 </td>
     <td class="editable" data-name="Country"> Moldova </td>
@@ -15,9 +16,8 @@ Structure row (set class editable if wish edit this cell):
     <td>
         <a class="delete" href="javascript:;"> Delete </a>
     </td>
-  </tr>
-  </table>
-</pre>
+
+
 
 Init plugin:
 <pre>
