@@ -4,7 +4,6 @@ edit table cells in table
 Structure row (set class editable if wish edit this cell):
 <pre>
 <table>
- <td>
   <tr data-id="1">
     <td class="editable" data-name="Title"> Лей </td>
     <td class="editable" data-name="Cost"> 0 </td>
@@ -17,7 +16,6 @@ Structure row (set class editable if wish edit this cell):
         <a class="delete" href="javascript:;"> Delete </a>
     </td>
   </tr>
-  </td>
   </table>
 </pre>
 
